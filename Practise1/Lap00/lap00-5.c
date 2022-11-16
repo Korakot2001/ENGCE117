@@ -11,7 +11,7 @@ Code, Compile, Run and Debug online from anywhere in world.
 int main() 
 {   
     printf("stock");
-    printf("\nline sell");
+    printf("\nlive sell");
     printf("\norder");
     printf("\ndelivey");
     return 0;
