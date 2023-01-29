@@ -114,9 +114,9 @@ int main() {
   ShowAll(head); //98, 2, 3, 4
   printf("\n------------------------------\n");
   printf(" Showback\n");
-  Showback(head);
+  Showback(head);//4, 3, 2, 98
   printf("\n");
-  ShowAll(head); //4, 3, 2, 98
+  ShowAll(head); //98, 2, 3, 4
   printf("\n------------------------------\n");
   printf(" SwapNode\n");
   SwapNode( & head,6, 3);
