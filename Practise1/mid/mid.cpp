@@ -1,5 +1,5 @@
 
-
+//https://youtu.be/CEMPpp1Sua0
 // นายกรกช ไตรอุโฆษ 65543206040-9 sec 2
 #include <stdio.h>
 #include <stdlib.h>
