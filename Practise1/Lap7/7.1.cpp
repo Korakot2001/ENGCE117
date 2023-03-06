@@ -17,20 +17,20 @@ protected:
   struct studentNode *start, **now;
 
 public:
-  LinkedList();  // กำหนดค่าเริ่มต้นของ start และ now
-  ~LinkedList(); // คืนหน่วยความจำที่จองไว้ในลิงค์ลิสต์ทุกโหนด
-  void InsNode(char n[], int a, char s, float g);
-  void DelNode();
-  void GoNext(); // เปลี่ยนโหนดปัจจุบันไปชี้ที่โหนดถัดไป
-  virtual void ShowNode();
+  LinkedList() ; //กำหนดค่าเริ่มต้นของ start และ now
+  ~LinkedList() ; //คืนหน่วยความจำที่จองไว้ในลิงค์ลิสต์ทุกโหนด
+  void InsNode( char n[], int a, char s, float g ) ; //แทรกโหนดใหม่อยู่ก่อนโหนดปัจจุบัน
+  void DelNode() ; //ลบโหนดปัจจุบัน
+  GoNext() ; //เปลี่ยนโหนดปัจจุบันไปชี้ที่โหนดถัดไป
+  virtual void ShowNode() ; //แสดงข้อมูลในโหนดปัจจุบัน
 }; // end class
 
 class NewList : public LinkedList
 {
 public:
-  void GoFirst();          // เปลี่ยนโหนดปัจจุบันไปชี้ที่โหนดเริ่มต้น
-  virtual void ShowNode(); // แสดงข้อมูลในทุกโหนดตั้งแต่เริ่มต้นถึงสุดท้าย
-};                         // end class
+  void GoFirst();          
+  virtual void ShowNode(); 
+};// end class
 
 int main()
 {
